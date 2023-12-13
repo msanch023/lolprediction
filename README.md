@@ -191,6 +191,7 @@ positive predictions.
 **Results**
 
 `Test Statistic`: -0.0242
+
 `P-Value`: 0.0120
 
 <iframe src="assets/fairness.html" width=800 height=600 frameBorder=0></iframe>
