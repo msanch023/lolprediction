@@ -124,6 +124,25 @@ features is quite good.
 
 <iframe src="assets/roc.html" width=800 height=600 frameBorder=0></iframe>
 
+<iframe src="assets/damagemitigatedperminute.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/barons.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/damagetochampions.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/dragons.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/firsttothreetowers.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/golddiffat15.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/side.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/visionscore.html" width=800 height=600 frameBorder=0></iframe>
+
+
+
+
 
 
 ## Fairness Analysis
