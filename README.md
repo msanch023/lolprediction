@@ -147,6 +147,7 @@ features is quite good.
 ### Groups:
 
 Group X: `blue side`
+
 Group Y: `red side`
 
 There are several advantages and disadvantages between each side in League of Legends. 
@@ -175,15 +176,18 @@ positive predictions.
 ### Hypothesis Testing:
 
 **Hypotheses**
+
 `Null`: The model is fair and there is no difference in precision between the two groups.
 `Alternative`: The model is not fair and the precision for one group is different from the other.
 
 **Factors**
+
 `Observed Test Statistic`: The difference in precision between the two groups.
 
 `Significance Level`: α = 0.05
 
 **Results**
+
 `Test Statistic`: -0.0242
 `P-Value`: 0.0120
 
