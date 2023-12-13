@@ -8,6 +8,8 @@ and trained a baseline and final model to make predictions. I also performed
 a fairness analysis at the end of the project to see if the final model performed 
 better or worse for certain groups.
 
+My exploratory data analysis on this dataset can be found [here](https://msanch023.github.io/lolanalysis/).
+
 ## Introduction
 
 The data set I used was taken from [Oracle's Elixer](https://oracleselixir.com/tools/downloads) and contains information on
