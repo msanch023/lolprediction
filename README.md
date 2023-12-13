@@ -146,8 +146,8 @@ features is quite good.
 
 ### Groups:
 
-Group X: One group that you believe might face potential unfairness or bias (e.g., 'Blue' side in League of Legends).
-Group Y: Another group that serves as a reference for comparison (e.g., 'Red' side in League of Legends).
+Group X: `blue side`
+Group Y: `red side`
 
 There are several advantages and disadvantages between each side in League of Legends. 
 For example blue side gets first pick when drafting champions, it is safer for the 
@@ -165,10 +165,33 @@ might sound simple but is in fact a huge factor in whether a team gets the objec
 or not.
 
 ![Neutral Objectives](/assets/Neutral-objectives-in-the-LOL-map.png)
+Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Neutral-objectives-in-the-LOL-map_fig3_367962142 [accessed 13 Dec, 2023]
 
-- `Blue Side`: 
-- `Red Side`: 
+### Evaluation Metric:
 
+The evaluation metric I used was precision so that I could see the accuracy of 
+positive predictions.
+
+### Hypothesis Testing:
+
+**Hypotheses**
+`Null`: The model is fair and there is no difference in precision between the two groups.
+`Alternative`: The model is not fair and the precision for one group is different from the other.
+
+**Factors**
+`Observed Test Statistic`: The difference in precision between the two groups.
+
+`Significance Level`: α = 0.05
+
+**Results**
+`Test Statistic`: -0.0242
+`P-Value`: 0.0120
+
+<iframe src="assets/fairness.html" width=800 height=600 frameBorder=0></iframe>
+
+In conclusion, there is statistical evidence pointing to an unfairness between the two groups. 
+With a p-value lower than the significance level, there is evidence to reject the null 
+hypothesis. 
 
 
 
