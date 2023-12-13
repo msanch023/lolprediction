@@ -18,9 +18,52 @@ information about the teams in the match.
 
 ## Framing the problem
 
-The prediction problem I will be I posed revolves around being able to predict 
-whether a team won the game in League of Legends. This will be achieved by using several 
-in-game metrics collected after the game. This is a binary classification problem since 
-I am trying to classify the outcome of the games into either win or loss. Therefore, the 
-response variable will be the result which is represented by a 1 for win and 0 for loss in 
-the data.
+The prediction problem I posed revolves around being able to predict 
+whether a team won the game in League of Legends. This question will be answered by using several 
+in-game metrics collected after the game since I want my model to be able 
+to make these predictions with data that represents the whole scope of the 
+game that was played. This is a binary classification problem since 
+I am trying to classify the outcome of the games into either win or loss which is 
+represented by a 1 for win and 0 for loss in 
+the data. The metric I will use to evaluate the model will be accuracy because it 
+works the best in a binary classification case like this where I just want to see the 
+ratio of correct to the total number of predictions made.
+
+
+## Baseline Model
+
+The predictive model I used was the Random Tree Classifier because of its effectiveness 
+in prediction tasks. I think that the way it minimizes over fitting while providing a 
+natural way of deducing the importance of different features when making predictions 
+made it a good fit for this project. 
+
+This model uses a series of unqiue quantitative, nominal, and ordinal features to 
+really highlight what a League of Legends game consists of.
+
+### Quantitative Features: 
+- `golddiffat15`: Represents the gold difference between the two teams at the 15-minute mark.
+- `visionscore`: Signifies the vision score, reflecting the extent of vision control. 
+Higher is better.
+- `damagetochampions`: Indicates the total damage dealt to champions during the 
+match by the whole team.
+- `damagemitigatedperminute`: Represents the damage mitigated per minute by 
+anything that shields, reduces, or in any way mitigates incoming damage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
