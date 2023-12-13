@@ -22,4 +22,5 @@ The prediction problem I will be I posed revolves around being able to predict
 whether a team won the game in League of Legends. This will be achieved by using several 
 in-game metrics collected after the game. This is a binary classification problem since 
 I am trying to classify the outcome of the games into either win or loss. Therefore, the 
-response variable will be...
+response variable will be the result which is represented by a 1 for win and 0 for loss in 
+the data.
