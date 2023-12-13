@@ -118,7 +118,12 @@ These were the best performing hyperparameters:
 The same model with added features ended up performing much better than the baseline 
 model with an accuracy of around 90%. In a game like League of Legends which has 
 hundred of variables per game I think that a 90% accuracy while only using 8 interesting 
-features is quite good. 
+features is quite good.
+
+<iframe src="assets/cm.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/roc.html" width=800 height=600 frameBorder=0></iframe>
+
 
 
 ## Fairness Analysis
