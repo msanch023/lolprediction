@@ -142,13 +142,32 @@ features is quite good.
 
 
 
-
-
-
 ## Fairness Analysis
 
+### Groups:
 
+Group X: One group that you believe might face potential unfairness or bias (e.g., 'Blue' side in League of Legends).
+Group Y: Another group that serves as a reference for comparison (e.g., 'Red' side in League of Legends).
 
+There are several advantages and disadvantages between each side in League of Legends. 
+For example blue side gets first pick when drafting champions, it is safer for the 
+blue side to do baron since the pit is facing them, and arguably blue side has a better 
+camera angle. 
+In contrast red side has a safer time doing dragons for the same reason blue side 
+has a safer time doing barons and red also gets to draft the last champion which 
+means they can make counter picks. 
+
+Here is a diagram of the map explaining the pits of baron and dragon. Natural 
+advantages and disadvantages are created since the map is not mirrored. If you 
+look closely the pits of baron and dragon face a certain direction which means 
+that the opposing side has to get over a wall or walk around to get access. This 
+might sound simple but is in fact a huge factor in whether a team gets the objective 
+or not.
+
+![Neutral Objectives](/assets/Neutral-objectives-in-the-LOL-map.png)
+
+- `Blue Side`: 
+- `Red Side`: 
 
 
 
