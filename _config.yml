@@ -8,7 +8,7 @@ titles_from_headings:
   strip_title: true
   collections: true 
 
-title: League of legends top lane impact analysis
+title: League of Legends win/loss prediction
 author:
   Marco Sanchez
   mas023@ucsd.edu
@@ -17,7 +17,8 @@ header_pages:
   Marco Sanchez
 
 description: >
-  Analysis on whether having a top laner ahead in gold 
-  15 minutes into the game makes winning the game more likely.
+  Prediction model trained to predict 
+  whether a team won or lost in a game 
+  of League of Legends.
 
 

@@ -105,6 +105,50 @@ This nets the team a very large chunk of gold.
 ### Response Variable:
 - `Result`: Represents whether a team won or lost the game.
 
+### Hyperparameter Tuning: 
+
+I ended up keeping it simple and used to `GridSearchCV()` to tune my hyper parameters. 
+These were the best performing hyperparameters: 
+ - `classifier__max_depth`: 10
+ - `classifier__n_estimators`: 100
+ 
+ 
+### Performance:
+
+The same model with added features ended up performing much better than the baseline 
+model with an accuracy of around 90%. In a game like League of Legends which has 
+hundred of variables per game I think that a 90% accuracy while only using 8 interesting 
+features is quite good. 
+
+
+## Fairness Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
